@@ -36,7 +36,7 @@ function Header() {
 						className='bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 rounded text-lg'
 						onClick={history.push("signin")}
 					>
-						Signin
+						Get started
 					</button>
 				</li>
 			</ul>
