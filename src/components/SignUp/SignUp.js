@@ -32,7 +32,7 @@ function SignUp() {
 
 	return (
 		<div className='flex h-full justify-center items-center'>
-			<div className='flex-col'>
+			<div className='flex-col bg-white'>
 				<h2 className='text-center py-2'>Sign Up</h2>
 				{error && <p className='text-red-600 text-center text-sm'>{error}</p>}
 				<form className='p-4 flex-col border-solid border-2 border-white' onSubmit={handleSubmit}>

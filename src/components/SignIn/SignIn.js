@@ -29,7 +29,7 @@ function SignIn() {
 			<div className='flex-col bg-white rounded-lg shadow-lg'>
 				<h2 className='text-center py-2'>Sign In</h2>
 				{error && <p className='text-red-600 text-center text-sm'>{error}</p>}
-				<form className='p-4 flex-col border-solid border-2 border-white' onSubmit={handleSubmit}>
+				<form className='p-4 flex-col bg-white' onSubmit={handleSubmit}>
 					<input
 						type='email'
 						className='border border-4 rounded my-2 p-1 block'
