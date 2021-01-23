@@ -58,7 +58,7 @@ function SignUp() {
 						required
 					/>
 					<button
-						className='bg-teal-800 text-white rounded p-1 w-full'
+						className='bg-green-500 text-white rounded-lg  p-1 w-full'
 						disabled={loading}
 						type='submit'
 					>
