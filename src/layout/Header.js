@@ -29,15 +29,19 @@ function Header() {
 					</NavLink>
 
 					<li className='px-1 mt-1 ml-5 text-black-600 cursor-pointer hover:underline'>
-						<NavLink to='#features' activeClassName='text-green-600'>
+						<NavLink to='/features' activeClassName='text-green-600'>
 							Features
 						</NavLink>
 					</li>
 					<li className='px-1 mt-1 ml-5 text-black-600 cursor-pointer hover:underline'>
-						<NavLink to='#testimonials'>Testimonials</NavLink>
+						<NavLink to='/testimonials' activeClassName='text-green-600'>
+							Testimonials
+						</NavLink>
 					</li>
 					<li className='px-1 mt-1 ml-5 text-black-600 cursor-pointer hover:underline'>
-						<NavLink to='#blog'>Blog</NavLink>
+						<NavLink to='/blog' activeClassName='text-green-600'>
+							Blog
+						</NavLink>
 					</li>
 					<li className='px-1 ml-5 text-black-600 cursor-pointer hover:underline'>
 						<button
