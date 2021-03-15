@@ -13,7 +13,7 @@ import { Landingpage } from "./components/Landingpage/Landingpage.jsx";
 
 function App() {
 	return (
-		<div className='h-screen bg-gray-300 flex-col content-between'>
+		<div className='h-screen bg-white flex-col content-between'>
 			<Header />
 			<div className='text-2xl h-screen-main'>
 				<Switch>
