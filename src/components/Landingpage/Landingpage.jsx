@@ -2,6 +2,7 @@ import React from "react";
 import { SectionSubHeading } from "../atom/SectionSubHeading";
 import heroImage from "../../images/heroImage.svg";
 import { Button } from "../atom/Button";
+import { Features } from "../atom/Features";
 
 export const Landingpage = () => {
 	return (
@@ -23,6 +24,7 @@ export const Landingpage = () => {
 						<img src={heroImage} alt='Engaging hero that showcases our Mission for Farmers' />
 					</div>
 				</div>
+				<Features />
 			</div>
 		</div>
 	);
