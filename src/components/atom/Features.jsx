@@ -1,17 +1,13 @@
 import React from "react";
+import { FeaturesGeneral } from "./FeaturesGeneral";
+import { SectionSubHeading } from "./SectionSubHeading";
 
 export const Features = () => {
 	return (
-		<div className='features'>
-			<div className='features-general'>
-				<div className='feature-performance'>
-					<img src='' alt='' />
-					<h2 className='feature-title'>Perfomance</h2>
-					<p className='feature-description'></p>
-				</div>
-				<div className='feature-security'></div>
-				<div className='feature-responsiveness'></div>
-			</div>
+		<div className='features mt-40'>
+			<SectionSubHeading text='More then just Farming' />
+			<h1 className='text-4xl font-bold text-green-500'>Features</h1>
+			<FeaturesGeneral />
 			<div className='features-core'></div>
 		</div>
 	);
