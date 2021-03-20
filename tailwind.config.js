@@ -3,7 +3,7 @@ module.exports = {
 	// ...
 	variants: {
 		extend: {
-			divideColor: ["group-hover"],
+			textColor: ["group-hover"],
 		},
 	},
 };
