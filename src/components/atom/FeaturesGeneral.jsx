@@ -13,7 +13,7 @@ export const FeaturesGeneral = () => {
 					suscipit facilis optio eaque hic laboriosam officia ipsam.
 				</p>
 			</div>
-			<div className='feature-security w-4/12 bg-white p-4 shadow-md hover:bg-green-500 duration-300'>
+			<div className='feature-security w-4/12 bg-white p-4 shadow-md  duration-300 hover:shadow-2xl cursor-pointer duration-300'>
 				<BiShieldQuarter className='text-green-500 my-5 text-6xl block m-auto' />
 				<h2 className='feature-title font-semibold '>Security</h2>
 				<p className='feature-description text-sm'>
@@ -21,7 +21,7 @@ export const FeaturesGeneral = () => {
 					suscipit facilis optio eaque hic laboriosam officia ipsam.
 				</p>
 			</div>
-			<div className='feature-responsiveness w-4/12 bg-white p-4 shadow-md'>
+			<div className='feature-responsiveness w-4/12 bg-white p-4 shadow-md hover:shadow-2xl cursor-pointer duration-300'>
 				<GrStackOverflow className='text-green-500 my-5 text-6xl block m-auto' />
 				<h2 className='feature-title font-semibold '>Responsive</h2>
 				<p className='feature-description text-sm'>
