@@ -25,7 +25,7 @@ function SignIn() {
 	}
 
 	return (
-		<div className='flex h-full justify-center items-center'>
+		<div className='flex h-full justify-center items-center h-screen-main'>
 			<div className='flex-col bg-white rounded-lg shadow-lg'>
 				<h2 className='text-center py-2'>Sign In</h2>
 				{error && <p className='text-red-600 text-center text-sm'>{error}</p>}

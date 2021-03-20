@@ -3,8 +3,8 @@ import { FaLinkedin, FaGithubAlt } from "react-icons/fa";
 
 function Footer() {
 	return (
-		<footer className='mx-auto mt-10 h-screen/10 flex justify-center items-center flex-col bg-green-600 font-semibold text-white'>
-			<div className='border border-white border-lg rounded-lg p-2 m-1'>
+		<footer className='inset-0 h-32 bg-green-500 relative w-full mb-0'>
+			<div className='p-2 m-1'>
 				<p>Created by Tolga Kara</p>
 
 				<a

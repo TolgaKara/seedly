@@ -13,9 +13,9 @@ import { Landingpage } from "./components/Landingpage/Landingpage.jsx";
 
 function App() {
 	return (
-		<div className='h-screen bg-white flex-col content-between'>
+		<div className='bg-white'>
 			<Header />
-			<div className='text-2xl h-screen-main'>
+			<div className='text-2xl'>
 				<Switch>
 					{/* Landingpage */}
 					<Route exact path='/' component={Landingpage} />
