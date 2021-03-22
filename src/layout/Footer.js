@@ -4,8 +4,8 @@ import { FaLinkedin, FaGithubAlt } from "react-icons/fa";
 function Footer() {
 	return (
 		<footer className='inset-0 h-32 bg-green-500 relative w-full mb-0'>
-			<div className='p-2 m-1'>
-				<p>Created by Tolga Kara</p>
+			<div className='p-2 m-1 text-white'>
+				<p>© 2021 Tolga Kara All Rights Reserved</p>
 
 				<a
 					className='flex text-white'
