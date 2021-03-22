@@ -15,7 +15,7 @@ export const Hero = () => {
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, recusandae tempora.
 					Nesciunt alias neque quaerat similique corrupti.
 				</p>
-				<Button type='action' text='Get Started' className='shadow-lg' />
+				<Button type='action' text='Get Started' />
 			</div>
 			<div>
 				<img src={heroImage} alt='Engaging hero that showcases our Mission for Farmers' />
