@@ -26,24 +26,26 @@ function SignIn() {
 
 	return (
 		<div className='flex h-full justify-center items-center h-screen-main'>
-			<div className='flex-col bg-white rounded-lg shadow-lg'>
-				<h2 className='text-center py-2'>Sign In</h2>
+			<div className='flex-col bg-white rounded-md shadow-md p-10'>
+				<h2 className='text-center py-2 text-green-500 font-bold'>Sign In</h2>
 				{error && <p className='text-red-600 text-center text-sm'>{error}</p>}
 				<form className='p-4 flex-col bg-white' onSubmit={handleSubmit}>
-					<input
-						type='email'
-						className='border border-4 rounded my-2 p-1 block'
-						placeholder='Email'
-						ref={emailRef}
-						required
-					/>
-					<input
-						type='password'
-						className='border rounded my-2 p-1 block'
-						placeholder='Password'
-						ref={passwordRef}
-						required
-					/>
+					<div className='mb-8 space-y-4'>
+						<input
+							type='email'
+							className='bg-gray-100 rounded my-2 p-1 block'
+							placeholder='Email'
+							ref={emailRef}
+							required
+						/>
+						<input
+							type='password'
+							className='bg-gray-100 rounded my-2 p-1 block'
+							placeholder='Password'
+							ref={passwordRef}
+							required
+						/>
+					</div>
 					<button
 						className='bg-green-500 text-white rounded-lg p-1 w-full'
 						disabled={loading}
