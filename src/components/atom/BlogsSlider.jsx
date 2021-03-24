@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Tag } from "./Tag";
 import blogEx from "../../images/blogEx.svg";
 import { SectionSubHeading } from "./SectionSubHeading";
+import { GrNext, GrPrevious } from "react-icons/gr";
+import { IconContext } from "react-icons/lib";
 
 export const BlogsSlider = () => {
+	const [counter, setCounter] = useState(1);
+
 	return (
 		<div>
 			<SectionSubHeading text='Read More interesting articles' />
@@ -21,6 +25,11 @@ export const BlogsSlider = () => {
 						</div>
 					</Link>
 				</div>
+			</div>
+			<div className='controls px-4 py-2 border border-green-400 border-8 w-32 shadow-md flex flex-row justify-center rounded-md mb-5 text-center'>
+				<GrPrevious className='mt-2' />
+				<span>{counter}</span>
+				<GrNext className='mt-2' />
 			</div>
 		</div>
 	);
