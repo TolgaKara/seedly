@@ -3,6 +3,7 @@ import { SectionSubHeading } from "../atom/SectionSubHeading";
 import { Button } from "../atom/Button";
 import { Features } from "../atom/Features";
 import { Hero } from "../atom/Hero";
+import { BlogsSlider } from "../atom/BlogsSlider";
 
 export const Landingpage = () => {
 	return (
