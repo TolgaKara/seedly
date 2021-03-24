@@ -10,6 +10,7 @@ export const Landingpage = () => {
 			<div className='container mx-auto mt-16 '>
 				<Hero />
 				<Features />
+				<BlogsSlider />
 			</div>
 		</div>
 	);
