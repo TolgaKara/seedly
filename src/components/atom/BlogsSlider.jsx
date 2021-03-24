@@ -9,6 +9,17 @@ import { IconContext } from "react-icons/lib";
 export const BlogsSlider = () => {
 	const [counter, setCounter] = useState(1);
 
+	const next = () => {
+		console.log("next");
+		setCounter(counter + 1);
+	};
+	const previous = () => {
+		if (counter != 1) {
+			console.log("previous");
+			setCounter(counter - 1);
+		}
+	};
+
 	return (
 		<div>
 			<SectionSubHeading text='Read More interesting articles' />
@@ -27,9 +38,9 @@ export const BlogsSlider = () => {
 				</div>
 			</div>
 			<div className='controls px-4 py-2 border border-green-400 border-8 w-32 shadow-md flex flex-row justify-center rounded-md mb-5 text-center'>
-				<GrPrevious className='mt-2' />
+				<GrPrevious className='mt-2 cursor-pointer' onClick={previous} />
 				<span>{counter}</span>
-				<GrNext className='mt-2' />
+				<GrNext className='mt-2 cursor-pointer' onClick={next} />
 			</div>
 		</div>
 	);
