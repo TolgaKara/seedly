@@ -4,11 +4,19 @@ import { Tag } from "./Tag";
 import blogEx from "../../images/blogEx.svg";
 import { SectionSubHeading } from "./SectionSubHeading";
 import { GrNext, GrPrevious } from "react-icons/gr";
-import { IconContext } from "react-icons/lib";
+import { createClient } from "@supabase/supabase-js";
 
 export const BlogsSlider = () => {
+	// state
 	const [counter, setCounter] = useState(1);
 
+	// variables
+	const supabaseUrl = "https://fahgkrecydjysnsgcgul.supabase.co";
+	const supabaseKey = process.env.SUPABASE_KEY;
+	//const supabase = createClient(supabaseUrl, supabaseKey);
+	console.log(supabaseKey);
+
+	// Functions
 	const next = () => {
 		console.log("next");
 		setCounter(counter + 1);
