@@ -15,7 +15,7 @@ export const PricingEnterprise = () => {
 				<li class='font-medium text-base'>Lorem ipsum dolor sit amet</li>
 				<li class='font-medium text-base'>Lorem ipsum dolor sit amet</li>
 			</ul>
-			<Button type='action' text='Purchase' />
+			<Button type='action' text='Get started' />
 		</div>
 	);
 };
