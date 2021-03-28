@@ -33,9 +33,9 @@ export const BlogsSlider = () => {
 			<SectionSubHeading text='Read More interesting articles' />
 			<h1 className='text-4xl font-bold text-green-500 mb-4'>Blog</h1>
 			<div className='cards flex flex-row mb-5'>
-				<div className='card justify-center p-10 bg-white border rounded  shadow-lg'>
+				<div className='card w-4/12 justify-center p-10 bg-white border rounded  shadow-lg'>
 					<Link to='/blog/1'>
-						<img className='w-32' src={blogEx} alt='' />
+						<img className='w-32 block mx-auto' src={blogEx} alt='' />
 						<p className='text-center'>Blog title</p>
 
 						<div className='flex flex-col space-y-3 mt-3'>
