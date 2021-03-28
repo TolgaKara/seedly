@@ -4,6 +4,7 @@ import { Button } from "../atom/Button";
 import { Features } from "../atom/Features";
 import { Hero } from "../atom/Hero";
 import { BlogsSlider } from "../atom/BlogsSlider";
+import { PricingTable } from "../atom/PricingTable";
 
 export const Landingpage = () => {
 	return (
@@ -12,6 +13,7 @@ export const Landingpage = () => {
 				<Hero />
 				<Features />
 				<BlogsSlider />
+				<PricingTable />
 			</div>
 		</div>
 	);
